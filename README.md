@@ -25,7 +25,7 @@ strAnimate(
         document.getElementById('textBox').innerText = input
     },
     document.getElementById('textBox').innerText,
-    "Lorem ipsum dolor sit amet",
+    "Lorem ipsum dolor sit amet"
 )
 ```
 In this example, the function will change the **innerText of the textBox** to **Lorem ipsum dolor sit amet**.
