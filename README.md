@@ -18,7 +18,7 @@ As you can see, the function accepts the following parameters:
 
 5. delay `(integer)[Optional]`: The time between one letter change and the next (as milliseconds). Default value is `30`.
 
-6. spaceChar `(string)[Optional]`: A space character used when newText is shorter than oldText. Default value is `&nbsp;`(nbsp)
+6. spaceChar `(string)[Optional]`: A space character used when newText is shorter than oldText. Default value is ` `(nbsp)
 
 ## Example
 ```javascript
