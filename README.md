@@ -5,7 +5,7 @@ This repository contains a JavaScript file containing a function that allows you
 ## Usage
 This JS file adds only one function.
 ```javascript
-strAnimate(callback, oldText, newText, delay[Optional], spaceChar[Optional])
+strAnimate(callback, oldText, newText, reverse[Optional], delay[Optional], spaceChar[Optional])
 ```
 As you can see, the function accepts the following parameters:
 1. **callback `(function)`:** A function that will be executed in the strAnimate function. It should take one argument and overwrite the text you want to change to the given argument.
@@ -14,9 +14,11 @@ As you can see, the function accepts the following parameters:
 
 3. **newText `(string)`:** A new string, which you want to replace.
 
-4. delay `(integer)[Optional]`: The time between one letter change and the next (as milliseconds). Default value is 30.
+4. reverse `(boolean)[Optional]` : Animation goes reverse when it's true. Default value is `false`.
 
-5. spaceChar `(string)[Optional]`: A space character used when newText is shorter than oldText. Default value is '&nbsp;'(nbsp)
+5. delay `(integer)[Optional]`: The time between one letter change and the next (as milliseconds). Default value is `30`.
+
+6. spaceChar `(string)[Optional]`: A space character used when newText is shorter than oldText. Default value is `&nbsp;`(nbsp)
 
 ## Example
 ```javascript
